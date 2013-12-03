@@ -6,7 +6,7 @@
  * Special thanks to @Paveo
  */
 function FindProxyForURL(url, host) {
-    var PROXY = "PROXY 127.0.0.1:8800";
+    var PROXY = "PROXY 127.0.0.1:1080";
     var DEFAULT = "DIRECT";
 
     var parts = host.split('.'),
