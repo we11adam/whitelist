@@ -26,7 +26,7 @@ function FindProxyForURL(url, host) {
             'bdimg.com', 'go2map.com', 'blogbus.com', 'blueidea.com', 'bokee.net', 'caing.com', 'ccb.com',
             'comsenz.com', 'csdn.net', 'ct10000.com', 'ctrip.com', 'dangdang.com', 'daqi.com', 'diandian.com',
             'dianping.com', 'discuz.net', 'donews.com', 'douban.com', 'dpfile.com', 'dream4ever.org',
-            'eastmoney.com', 'elong.com', 'et8.org', 'fengniao.com', 'ganji.com', 'gfan.com', 'gfw.io',
+            'eastmoney.com', 'elong.com', 'et8.org', 'fengniao.com', 'ganji.com', 'gfan.com',
             'goodbabygroup.com', 'gougou.com', 'gtimg.com', 'hi-pda.com', 'hiapk.com', 'huaban.com',
             'huanqiu.com', 'hudong.com', 'iciba.com', 'img-space.com', 'infzm.com', 'ip138.com', 'jandan.net',
             'jiepang.com', 'kaixin001.com', 'ku6.com', 'ku6img.com', 'lampdrive.com', 'lashou.com',
