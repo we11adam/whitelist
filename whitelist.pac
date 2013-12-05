@@ -30,7 +30,7 @@ function FindProxyForURL(url, host) {
             'goodbabygroup.com', 'gougou.com', 'gtimg.com', 'hi-pda.com', 'hiapk.com', 'huaban.com',
             'huanqiu.com', 'hudong.com', 'iciba.com', 'img-space.com', 'infzm.com', 'ip138.com', 'jandan.net',
             'jiepang.com', 'kaixin001.com', 'ku6.com', 'ku6img.com', 'lampdrive.com', 'lashou.com',
-            'lashouimg.com', 'etao.com', 'manzuo.com', 'mapabc.com', 'mapbar.com', 'meituan.com',
+            'lashouimg.com', 'manzuo.com', 'mapabc.com', 'mapbar.com', 'meituan.com',
             'microsoft.com', 'mozilla.org', 'mop.com', 'mtime.com', 'mydrivers.com', 'nbweekly.com',
             'netease.com', 'nuomi.com', 'onlinedown.net', 'paipai.com', 'pchome.net', 'pcpop.com', 'pengyou.com',
             'ppstream.com', 'pptv.com', 'qiyi.com', 'qunar.com', 'qvbuy.com', 'renren.com', 'rrimg.com',
