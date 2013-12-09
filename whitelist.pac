@@ -6,8 +6,9 @@
  * Special thanks to @Paveo
  */
 function FindProxyForURL(url, host) {
-    var PROXY = "PROXY 127.0.0.1:1080";
-    var DEFAULT = "DIRECT";
+    var PROXY = "PROXY 127.0.0.1:1080",
+        PROXY_US = "PROXY 127.0.0.1:1090",
+        DEFAULT = "DIRECT";
 
     var parts = host.split('.'),
     // always use proxy, even if inHosts or domains are matched
@@ -19,6 +20,9 @@ function FindProxyForURL(url, host) {
             '123', '168', '51', '58', '86', '91', 'bj', 'zj', 'ali', 'tao', 'tmall', 'qq', 'tencent', 'cdn', 'china',
             'local'
         ],
+
+        us_domains = ['www.google.com', 'itunes.apple.com'],
+
     // domains end with
         domains = [
             'cn', '10010.com', '115.com', '115img.com', '126.com', '126.net', '163.com', '24quan.com', '265.com',
@@ -66,6 +70,10 @@ function FindProxyForURL(url, host) {
     // domain/ip prefix. eg: http://60.1.2.3
     for (i = 0, len = prefixes.length, part = parts[0] + '.'; i < len; i++) {
         if (prefixes[i] + '.' === part) return DEFAULT;
+    }
+    
+    for (i = 0, len = us_domains.length; i < len; i++) {
+        if (dnsDomainIs(host, us_domains[i])) return PROXY_US;
     }
 
     // match main domain. eg: http://www.verycd.com, http://ip138.com/
