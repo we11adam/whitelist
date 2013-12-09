@@ -15,7 +15,7 @@ function FindProxyForURL(url, host) {
         overrideDomains = [
         'nytimes.com',
         'fbcdn.net',
-        'cdn.api.twitter.com'
+        'cdn.api.twitter.com',
         'ytimg.com'
         ],
 
