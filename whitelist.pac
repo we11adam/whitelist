@@ -6,22 +6,30 @@
  * Special thanks to @Paveo
  */
 function FindProxyForURL(url, host) {
-    var PROXY = "PROXY 127.0.0.1:1080",
-        PROXY_US = "PROXY 127.0.0.1:1090",
+    var PROXY = "PROXY 127.0.0.1:1080", // jp proxy
+        PROXY_US = "PROXY 127.0.0.1:1090", // us proxy
         DEFAULT = "DIRECT";
 
     var parts = host.split('.'),
     // always use proxy, even if inHosts or domains are matched
-        overrideDomains = ['nytimes.com', 'fbcdn.net','cdn.api.twitter.com'],
+        overrideDomains = [
+        'nytimes.com',
+        'fbcdn.net',
+        'cdn.api.twitter.com'
+        'ytimg.com'
+        ],
+
     // domain/host starts with
         prefixes = ['cn', 'china'],
+
     // indexOf searching
         inHosts = [
             '123', '168', '51', '58', '86', '91', 'bj', 'zj', 'ali', 'tao', 'tmall', 'qq', 'tencent', 'cdn', 'china',
             'local'
         ],
 
-        us_domains = ['www.google.com', 'itunes.apple.com'],
+    // domains that go through us proxy
+        us_domains = ['www.google.com'],
 
     // domains end with
         domains = [
