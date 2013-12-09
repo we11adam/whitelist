@@ -12,7 +12,7 @@ function FindProxyForURL(url, host) {
 
     var parts = host.split('.'),
     // always use proxy, even if inHosts or domains are matched
-        overrideDomains = ['nytimes.com', 'fbcdn.net'],
+        overrideDomains = ['nytimes.com', 'fbcdn.net','cdn.api.twitter.com'],
     // domain/host starts with
         prefixes = ['cn', 'china'],
     // indexOf searching
