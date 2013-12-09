@@ -13,10 +13,10 @@ function FindProxyForURL(url, host) {
     var parts = host.split('.'),
     // always use proxy, even if inHosts or domains are matched
         overrideDomains = [
-        'nytimes.com',
-        'fbcdn.net',
-        'cdn.api.twitter.com',
-        'ytimg.com'
+            'nytimes.com',
+            'fbcdn.net',
+            'cdn.api.twitter.com',
+            'ytimg.com'
         ],
 
     // domain/host starts with
@@ -79,7 +79,7 @@ function FindProxyForURL(url, host) {
     for (i = 0, len = prefixes.length, part = parts[0] + '.'; i < len; i++) {
         if (prefixes[i] + '.' === part) return DEFAULT;
     }
-    
+
     for (i = 0, len = us_domains.length; i < len; i++) {
         if (dnsDomainIs(host, us_domains[i])) return PROXY_US;
     }
