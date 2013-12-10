@@ -17,6 +17,7 @@ function FindProxyForURL(url, host) {
             'fbcdn.net',
             'sstatic.net',
             'cdn.api.twitter.com',
+            'cloudflare.com',
             'ytimg.com'
         ],
 
