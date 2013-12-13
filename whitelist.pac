@@ -58,7 +58,7 @@ function FindProxyForURL(url, host) {
             '0x110.com', 'kuaidi100.com', 'bdstatic.com', 'fastif.net', 'duapp.com', 'xiachufang.com',
             'wandoujia.com', 'wdjimg.com', 'chdbits.org', 'zhi.hu', 'join.me', 'static.com', 'img.com',
             'imgur.com', 'images-amazon.com', 'smzdm.com', 'ycombinator.com', 'gravatar.com', 'v2ex.com',
-            'dream4ever.org'
+            'dream4ever.org', 'linezing.com'
         ];
 
     // ignore local host name. eg: http://localhost
