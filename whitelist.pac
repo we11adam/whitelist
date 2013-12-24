@@ -6,8 +6,7 @@
  * Special thanks to @Paveo
  */
 function FindProxyForURL(url, host) {
-    var PROXY = "PROXY 127.0.0.1:1080", // jp proxy
-        PROXY_US = "PROXY 127.0.0.1:1090", // us proxy
+    var PROXY = "PROXY 127.0.0.1:1080", 
         DEFAULT = "DIRECT";
 
     var parts = host.split('.'),
@@ -30,8 +29,6 @@ function FindProxyForURL(url, host) {
             'local'
         ],
 
-    // domains that go through us proxy
-        us_domains = ['www.google.com'],
 
     // domains end with
         domains = [
@@ -81,10 +78,6 @@ function FindProxyForURL(url, host) {
     // domain/ip prefix. eg: http://60.1.2.3
     for (i = 0, len = prefixes.length, part = parts[0] + '.'; i < len; i++) {
         if (prefixes[i] + '.' === part) return DEFAULT;
-    }
-
-    for (i = 0, len = us_domains.length; i < len; i++) {
-        if (dnsDomainIs(host, us_domains[i])) return PROXY_US;
     }
 
     // match main domain. eg: http://www.verycd.com, http://ip138.com/
