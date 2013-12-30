@@ -52,7 +52,7 @@ function FindProxyForURL(url, host) {
             'xinnet.com', 'xitek.com', 'xunlei.com', 'yesky.com', 'yihaodian.com', 'yihaodianimg.com',
             'ykimg.com', 'ynet.com', 'youdao.com', 'youku.com', 'yupoo.com', 'zaobao.com', 'zhaopin.com',
             'zhihu.com', 'idailyapp.com', 'logmein.com', 'my.cl.ly', 'synacast.com', 'pplive.com', 'eyoudi.com',
-            'kuaidi100.com', 'bdstatic.com', 'fastif.net', 'duapp.com', 'xiachufang.com',
+            'kuaidi100.com', 'bdstatic.com', 'fastif.net', 'duapp.com', 'xiachufang.com', 'ttg.im', 'hdwing.com',
             'wandoujia.com', 'wdjimg.com', 'chdbits.org', 'zhi.hu', 'join.me', 'static.com', 'img.com',
             'imgur.com', 'images-amazon.com', 'smzdm.com', 'ycombinator.com', 'gravatar.com', 'v2ex.com',
             'dream4ever.org', 'linezing.com', 'baihui.com',
