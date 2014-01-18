@@ -15,6 +15,7 @@ function FindProxyForURL(url, host) {
             'nytimes.com',
             'fbcdn.net',
             'sstatic.net',
+            'gstatic.com',
             'cdn.api.twitter.com',
             'cloudflare.com',
             'ytimg.com'
